@@ -15,5 +15,17 @@
   "bugs": {
     "url": "https://github.com/xmoddisx/nodejs-mongodb/issues"
   },
-  "homepage": "https://github.com/xmoddisx/nodejs-mongodb#readme"
+  "homepage": "https://github.com/xmoddisx/nodejs-mongodb#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "crypto": "^1.0.1",
+    "express": "^4.16.4",
+    "jwt-simple": "^0.5.5",
+    "moment": "^2.23.0",
+    "mongoose": "^5.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
 }
