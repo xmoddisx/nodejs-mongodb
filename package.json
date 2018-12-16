@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-mongodb",
+  "version": "1.0.0",
+  "description": "estudiando nodejs api rest con mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xmoddisx/nodejs-mongodb.git"
+  },
+  "author": "Ignacio Valencia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xmoddisx/nodejs-mongodb/issues"
+  },
+  "homepage": "https://github.com/xmoddisx/nodejs-mongodb#readme"
+}
