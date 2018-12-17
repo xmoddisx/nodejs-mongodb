@@ -7,7 +7,7 @@ const api = express.Router();
 // ### CRUD ERROR CODES ###
 
 api.get("/error_codes", crtlError.getErrorCodes);
-api.get("/error_codes/all", crtlError.getErrorCodes);
-//api.put("/error-codes",)
+api.get("/error_codes", crtlError.getErrorCodes);
+api.post("/error_codes", crtlError.saveErrorCodes);
 
 module.exports = api;

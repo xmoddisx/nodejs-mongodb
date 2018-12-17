@@ -16,12 +16,15 @@ const ErrorCodesSchema = Schema({
 
 ErrorCodesSchema.pre("save", function(next) {
   if (!this.isModified()) {
-    if (this._id != null) {
-      this._id = this.error;
-    }
+    this.modified = Date.now();
     return next();
   }
-  this.modified = Date.now();
+  TODO: 
+  // ### remplaza el _id mongo ###
+  // if (this._id != null) {
+  //   this._id = this.error;
+  // }
+  return next();
 });
 
-module.exports = mongoose.model("ErrorCodes", ErrorCodesSchema);
+module.exports = mongoose.model("error_codes", ErrorCodesSchema);

@@ -8,6 +8,6 @@ const app = express();
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-app.use("/app",api);
+app.use("/api",api);
 
 module.exports = app;
