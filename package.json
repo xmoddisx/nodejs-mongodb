@@ -4,6 +4,7 @@
   "description": "estudiando nodejs api rest con mongodb",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +21,7 @@
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.18.3",
     "crypto": "^1.0.1",
+    "cuid": "^2.1.4",
     "express": "^4.16.4",
     "jwt-simple": "^0.5.5",
     "moment": "^2.23.0",
